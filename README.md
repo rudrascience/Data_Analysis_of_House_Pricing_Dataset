@@ -4,6 +4,11 @@ Here I analyzed a House Price Dataset of King County in USA for IBM Data Science
 ## Link for the Kaggle dataset of King County in USA
 [![Kaggle](https://shields.io)]([https://kaggle.com](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction))
 
+---
+## Clone the repository
+
+
+---
 ## Used tools
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -39,5 +44,74 @@ The project addresses 10 structured analytical questions (`Q1`–`Q10`) that pro
 | Q8 | Scikit-learn Pipeline | `StandardScaler` + `PolynomialFeatures` + `LinearRegression` via `Pipeline` |
 | Q9 | Ridge Regression | `Ridge(alpha=0.1)` — regularised model fit and evaluation |
 | Q10 | Regularisation comparison | Second-order polynomial + Ridge → R² improvement quantified |
+
+---
+## 🛠️ Technology Stack
+
+| Technology | Role |
+|:---|:---|
+| **Python 3.x** | Core language |
+| **Jupyter Notebook** | Interactive analysis environment |
+| **Pandas** | Data loading, cleaning, transformation, groupby |
+| **NumPy** | Numerical operations and array handling |
+| **Matplotlib** | Base plotting library |
+| **Seaborn** | Statistical visualisation (`regplot`, `boxplot`) |
+| **Scikit-learn** | `LinearRegression`, `Ridge`, `Pipeline`, `PolynomialFeatures`, `StandardScaler`, `train_test_split` |
+
+**Notebook composition:**
+
+```
+Python / Jupyter cells (EDA + modelling)   ████████████████████  ~70%
+Visual evidence (question screenshots)     ████████░░░░░░░░░░░░  ~25%
+Markdown documentation                     ██░░░░░░░░░░░░░░░░░░   ~5%
+```
+## 📊 Dataset Summary
+
+| Attribute | Value |
+|:---|:---|
+| **Dataset** | King County House Sales (USA) |
+| **Source** | IBM Skills Network / Kaggle variant |
+| **Records** | ~21,613 house sale transactions |
+| **Features** | 21 (bedrooms, bathrooms, sqft_living, sqft_lot, floors, waterfront, view, condition, grade, sqft_above, sqft_basement, yr_built, yr_renovated, zipcode, lat, long, sqft_living15, sqft_lot15) |
+| **Target variable** | `price` (house sale price in USD) |
+| **Date range** | May 2014 – May 2015 |
+
+---
+
+## 🔬 Modelling Pipeline Detail
+
+```
+1. Data Ingestion
+   └── pd.read_csv() → DataFrame
+
+2. Data Wrangling
+   ├── Drop: ['id', 'Unnamed: 0']
+   ├── Null check & removal
+   └── dtypes inspection
+
+3. Exploratory Data Analysis
+   ├── value_counts() → categorical distributions
+   ├── sns.boxplot() → price vs waterfront
+   └── sns.regplot() → price vs sqft_above
+
+4. Model Development
+   ├── Simple LR:   LinearRegression(sqft_living) → R²
+   ├── Multiple LR: LinearRegression(7 features)  → R²
+   ├── Pipeline:    StandardScaler + PolynomialFeatures(2) + LR → R²
+   └── Ridge:       Ridge(alpha=0.1) + Polynomial(2) → R² (best)
+
+5. Model Refinement
+   └── R² score comparison across all 4 models
+```
+
+## 📚 Course Context
+
+| Detail | Value |
+|:---|:---|
+| Course | Data Analysis with Python |
+| Provider | IBM / Coursera |
+| Certificate | IBM Data Science Professional Certificate |
+| Assignment | Final Capstone Lab |
+| Dataset | King County House Sales, USA |
 
 ---
