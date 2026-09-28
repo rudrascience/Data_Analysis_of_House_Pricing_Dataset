@@ -61,8 +61,8 @@ The project addresses 10 structured analytical questions (`Q1`–`Q10`) that pro
 **Notebook composition:**
 
 ```
-Python / Jupyter cells (EDA + modelling)   ████████████████████  ~70%
-Visual evidence (question screenshots)     ████████░░░░░░░░░░░░  ~25%
+Python / Jupyter cells (EDA + modelling)   ████████████████████  ~80%
+Visual evidence                            ████████░░░░░░░░░░░░  ~25%
 Markdown documentation                     ██░░░░░░░░░░░░░░░░░░   ~5%
 ```
 ## 📊 Dataset Summary
@@ -115,3 +115,4 @@ Markdown documentation                     ██░░░░░░░░░░�
 | Dataset | King County House Sales, USA |
 
 ---
+**👤 Author: [Rudarjit Das](https://github.com/rudrascience)** ·
