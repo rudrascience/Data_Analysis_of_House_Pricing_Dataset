@@ -35,7 +35,7 @@ The project addresses 10 structured analytical questions (`Q1`–`Q10`) that pro
 | Q4 | Waterfront impact on price | Box plot — price vs waterfront attribute |
 | Q5 | Price vs square footage | Regression plot (`sns.regplot`) — `sqft_above` vs `price` |
 | Q6 | Simple linear regression | `LinearRegression` on `sqft_living` → R² score |
-| Q7 | Multiple linear regression | Multi-feature model — bedrooms, bathrooms, floors, sqft, condition, grade |
+| Q7 | Multiple linear regression | Multi-feature model — floors, waterfront,lat ,bedrooms ,sqft_basement ,view ,bathrooms,sqft_living15,sqft_above,grade,sqft_living |
 | Q8 | Scikit-learn Pipeline | `StandardScaler` + `PolynomialFeatures` + `LinearRegression` via `Pipeline` |
 | Q9 | Ridge Regression | `Ridge(alpha=0.1)` — regularised model fit and evaluation |
 | Q10 | Regularisation comparison | Second-order polynomial + Ridge → R² improvement quantified |
