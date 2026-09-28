@@ -115,4 +115,4 @@ Markdown documentation                     ██░░░░░░░░░░�
 | Dataset | King County House Sales, USA |
 
 ---
-**👤 Author: [Rudarjit Das](https://github.com/rudrascience)** ·
+**👤 Author: [Rudrajit Das](https://github.com/rudrascience)** ·
