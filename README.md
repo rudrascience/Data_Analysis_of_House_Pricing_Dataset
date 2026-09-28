@@ -1,12 +1,12 @@
 # Data_Analysis_of_House_Pricing_Dataset
 Here I analyzed a House Price Dataset of King County in USA for IBM Data Science Professional Certification. The dataset is also available in the kaggle.
 
-## Link for the Kaggle dataset of King County in USA
-[![Kaggle](https://shields.io)]([https://kaggle.com](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction))
-
 ---
-## Clone the repository
-
+## Link for the Kaggle dataset of King County in USA
+[![Kaggle](https://img.shields.io/badge/Kaggle-amlanmohanty1-skyblue?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
+---
+## Repository Link
+([https://github.com/rudrascience/Data_Analysis_of_House_Pricing_Dataset/blob/main/README.md])
 
 ---
 ## Used tools
