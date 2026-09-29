@@ -62,7 +62,7 @@ The project addresses 10 structured analytical questions (`Q1`–`Q10`) that pro
 
 ```
 Python / Jupyter cells (EDA + modelling)   ████████████████████  ~80%
-Visual evidence                            ████████░░░░░░░░░░░░  ~25%
+Visual evidence                            ████████░░░░░░░░░░░░  ~15%
 Markdown documentation                     ██░░░░░░░░░░░░░░░░░░   ~5%
 ```
 ## 📊 Dataset Summary
